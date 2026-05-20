@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background: #222;
+  padding-top: 20px;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background: #444;
+}
+
+.content {
+  padding: 40px;
+}
