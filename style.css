@@ -31,3 +31,91 @@ body {
 .content {
   padding: 40px;
 }
+
+/* Contact section */
+.contact-box {
+  margin-top: 40px;
+  padding: 15px;
+  color: white;
+}
+
+.contact-box h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.contact-box p {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #ccc;
+  }
+
+.contact-box a {
+  display: block;
+  font-size: 13px;
+  color: #87cefa;
+  padding: 5px 0;
+}
+
+/* Main content */
+.content {
+  margin-left: 240px;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+/* Intro */
+.intro h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  font-size: 18px;
+  color: #555;
+}
+
+/* About section */
+.about-section {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.profile-photo {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.about-text {
+  max-width: 600px;
+}
+
+.about-text h2 {
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  line-height: 1.7;
+  color: #444;
+}
+
+/* Gallery */
+.gallery {
+  margin-top: 60px;
+}
+
+.gallery h2 {
+  margin-bottom: 20px;
+}
+
+.gallery img {
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 15px;
+}
