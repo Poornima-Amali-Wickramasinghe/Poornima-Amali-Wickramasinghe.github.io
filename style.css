@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 200px;
+    background:#002147;
+    color: white;
+    padding: 30px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.last-updated {
+    margin-top: auto;
+    margin-bottom: 45px;
+    font-size: 12px;
+    color: #cbd5e1;
+}
+.logo {
+    margin-bottom: 30px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 12px 0;
+}
+
+.contact-box a {
+    color: #87cefa;
+}
+
+.sidebar a:hover {
+    color: #87cefa;
+}
+
+/* Main Content */
+.content {
+    flex: 1;
+    padding: 20px 50px 50px 50px;
+}
+
+/* Intro */
+.intro {
+    margin-bottom: 60px;
+}
+
+.intro h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.profile-photo {
+    width: auto;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+
+/* About */
+.about-section {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+
+.about-text {
+    max-width: 700px;
+}
+
+.about-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.about-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.gallery-item {
+   /* width: 220px;*/
+    flex: 1 1 calc(25% - 20px);
+}
+
+/*
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+} */
+/*
+.about-gallery img {
+    flex: 1;
+    min-width: 200px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}*/
+
+.caption {
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+/* Contact Box in Sidebar */
+
+.contact-box {
+    margin-top: 100px;   /* space below Projects */
+}
+
+.contact-box h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.contact-box p {
+    font-size: 12px;
+    color: #d0d0d0;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.contact-box a {
+    display: block;
+    color: #87cefa;
+    font-size: 12px;
+    text-decoration: none;
+    margin-bottom: 4px;
+}
+
+.contact-box a:hover {
+    text-decoration: underline;
+}
+
+
